@@ -17,7 +17,7 @@ app.get('/', (req: Request, res: Response) => {
         message: 'This is a dynamic message passed to the EJS view.'
     };
 
-    res.render('index', data); // Pass data to EJS
+    res.render('index', data); // Pass data to EJS cxzd
 });
 
 
